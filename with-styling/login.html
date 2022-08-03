@@ -10,29 +10,31 @@
             <h1>Lexicon&nbsp;5</h1>
             <nav>
                 <ul>
-                    <li><a target=”_blank” href="https://google.com">Google</a></li>
-                    <li><a target=”_blank” href="https://en.wikipedia.org/wiki/Special:Random">Wiki</a></li>
-                    <li><a target=”_blank” href="https://www.w3schools.com/css/">W3School</a></li>
+                    <li><a class="linkbutton" target=”_blank” href="https://google.com">Google</a></li>
+                    <li><a class="linkbutton" target=”_blank” href="https://en.wikipedia.org/wiki/Special:Random">Wiki</a></li>
+                    <li><a class="linkbutton" target=”_blank” href="https://www.w3schools.com/css/">W3School</a></li>
                 </ul>
-                    <a href="index.html">Back&nbsp;to&nbsp;Index</a>
+                <a class="linkbutton" href="index.html">Close</a>
             </nav>
         </header>
-        <main>
-            <h2>Login</h2>
-            <form>
-                <div class="formgrid">
-                    <label>Username:</label>
-                    <input class="forminput" type="text">
-                    <label>Password:</label>
-                    <input class="forminput" type="password">
-                </div>
-                <div class="formbuttons">
-                    <input type="reset" value="Rensa">
-                    <input type="submit" value="Skicka">
-                </div>
-            </form>
-        </main>
-        <footer>
+        <div class="scrollarea">
+            <main class="logincontent">
+                <h2>Login</h2>
+                <form>
+                    <div class="formgrid">
+                        <label>Username:</label>
+                        <input class="forminput" type="text">
+                        <label>Password:</label>
+                        <input class="forminput" type="password">
+                    </div>
+                    <div class="formbuttons">
+                        <input class="button reset" type="reset" value="Reset">
+                        <input class="button submit" type="submit" value="Submit">
+                    </div>
+                </form>
+            </main>
+        </div>        
+            <footer>
             <span>&copy;Kurt Lexicon</span>
         </footer>
     </body>
